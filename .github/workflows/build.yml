@@ -26,6 +26,7 @@ jobs:
                     architecture: x64
             -   name: Submit Dependency Snapshot
                 uses: advanced-security/maven-dependency-submission-action@v3
+                
             -   name: Cache Maven packages
                 uses: actions/cache@v3.3.1
                 with:
